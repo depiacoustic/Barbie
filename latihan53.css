@@ -1,0 +1,103 @@
+body{
+	background-image: url(https://images7.alphacoders.com/132/1328595.jpeg);
+    
+}
+#tampilan{
+	background-color: rgba(181, 214, 231, 0.5);
+	width: 1000px;
+	height: 2000px;
+	margin: auto;
+	padding: 5px;
+}
+#header{
+	background-color: white;
+	height: 200px;
+	width: 1000px;
+	overflow: hidden; }
+
+#teks {
+	background-color: deeppink;
+	height: 20px;
+	width: 997px;
+	overflow: hidden;
+	border-style: inset;
+	border-color: black;
+} 
+#menu {
+	background: aliceblue;
+	height: 30px;
+	width: 1000px;
+}
+
+#kiri {
+	background: lightpink;
+	height: 2400px;
+	width: 997px;
+	float: left;
+	border-style: solid;
+	border-color: black;
+}
+.box {
+	width: 560px;
+    height: 315px;
+    border: 5px solid skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0;
+}
+
+.iframe {
+    width: 560%; 
+    height: 315%; 
+    border: none; 
+}
+.icon-home {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;                   
+    content: "\f015";                   
+    display: inline-block;
+    font-size: 24px;
+    color: lightpink;                  
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black; 
+    padding: 10px; 
+    text-align: left;
+}
+
+th {
+    background-color: hotpink; 
+}
+
+tr:nth-child(even) {
+    background-color: white; 
+}
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+
+
+
+
